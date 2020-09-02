@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    /* font-family: sans-serif; */
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 768px)
+.col-md-6 {
+    flex:0 0 50%;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex:0 0 50%;
+}
+.card img{
+ width: 35%;
+}
+ .blog-pagination .btn{
+    border-radius:2rem;
+}
+
+.jumbotron h1{
+    font-weight: 600;
+    font-size: 2.25rem;
+}
